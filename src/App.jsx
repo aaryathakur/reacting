@@ -1,12 +1,13 @@
 import React from 'react'
-import Card from './Components/Card'
+import Card2 from './components/Card2'
 
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Card />
-    </div>
+    <>
+    <Card2 />
+    <h1>hey</h1>
+    </>
   )
 }
 
