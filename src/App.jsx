@@ -1,11 +1,11 @@
 import React from 'react'
-import Card2 from './components/Card2'
+import Card3 from './components/Card3'
 
 
 function App() {
   return (
     <>
-    <Card2 />
+    <Card3 />
     <h1>hey</h1>
     </>
   )
