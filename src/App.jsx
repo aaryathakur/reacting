@@ -1,19 +1,15 @@
 import React, { useState } from 'react'
 
-
-
 function App() {
-  const [val, setVal] = useState(12);
-  return(
-    <div className='p-4'>
-      <h1 >{val}</h1>
-      <button onClick={() => setVal((prev) => prev + 1)} className='px-3 py-1 bg-blue-400 rounded-full'>
-  chnge karo
-</button>
-
-
-
+  const [val, setVal] = useState({name: " harsh" , age:24});
+  return (
+    <div>
+      <button onClick={async () => {
+        await setVal({...val, gender: "male" });
+        await console.log(val);
+      }} >click</button>
     </div>
+
   )
     
 }
