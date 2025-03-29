@@ -3,9 +3,10 @@ import Card from "./components/Card";  // Import the Card component
 
 function App() {
   return (
-    <div>
-      <Card />   {/* Render the Card component */}
-    </div>
+    <>
+    <Card text="Know More" color="bg-blue-600"/>   {/* Render the Card component */}
+    <Card  text="Download" color="bg-red-700" /> 
+    </>
   );
 }
 
